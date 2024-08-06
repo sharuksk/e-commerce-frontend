@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import loginIcon from "../assest/signin.gif";
+// import loginIcon from "../assest/signin.gif";
 import { FaEye } from "react-icons/fa";
 import { FaEyeSlash } from "react-icons/fa";
 import { Link } from 'react-router-dom';
@@ -51,7 +51,7 @@ const Login = () => {
         <div className='mx-auto container p-4'>
             <div className='bg-white p-5 w-full max-w-md mx-auto max-w-sm'>
                 <div className='w-20 h-20 mx-auto'>
-                    <img src={loginIcon || "alt"} alt="Login Icon" />
+                    {/* <img src={loginIcon || "alt"} alt="Login Icon" /> */}
                 </div>
 
                 <form className='pt-6 flex flex-col gap-2' onSubmit={handleSubmit}>
