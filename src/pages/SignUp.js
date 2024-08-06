@@ -76,7 +76,7 @@ const SignUp = () => {
         <div className='bg-white p-5 w-full max-w-md mx-auto max-w-sm'>
             <div className='w-20 h-20 mx-auto relative overflow-hidden rounded-full'>
                 <div>
-                    <img src={data.profilePic || loginIcon} alt="Login Icon" />
+                    <img src={data.profilePic || loginIcon || "alt"} alt="Login Icon" />
                 </div>
                 <form>
                     <label>
