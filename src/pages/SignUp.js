@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import loginIcon from "../assest/signin.gif";
+// import loginIcon from "../assest/signin.gif";
 import { FaEye } from "react-icons/fa";
 import { FaEyeSlash } from "react-icons/fa";
 import { Link, useNavigate } from 'react-router-dom';
@@ -76,7 +76,7 @@ const SignUp = () => {
         <div className='bg-white p-5 w-full max-w-md mx-auto max-w-sm'>
             <div className='w-20 h-20 mx-auto relative overflow-hidden rounded-full'>
                 <div>
-                    <img src={data.profilePic || loginIcon || "alt"} alt="Login Icon" />
+                    {/* <img src={data.profilePic || loginIcon || "alt"} alt="Login Icon" /> */}
                 </div>
                 <form>
                     <label>
